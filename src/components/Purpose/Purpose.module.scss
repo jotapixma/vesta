@@ -1,0 +1,40 @@
+.purposePanel{
+  padding: 2rem 0 1rem;
+  background-color: $white;
+  .descriptionBox{
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    max-width: 60%;
+    margin: 1rem auto 1.5rem;
+    text-align: center;
+  }
+  .bodyPanel{
+    padding-top: 1rem;
+    .unorderList{
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      li{
+        display: inline-flex;
+        align-items: center;
+        margin-bottom: 1rem;
+        gap: 4px;
+        color: $secondary;
+        svg{
+          color: $green;
+        }
+        @media only screen and (min-width: $breakpoint_md) {
+          width: 50%;
+        }
+      }
+    }
+    .imgMask{
+      overflow: hidden;
+      border-radius: 4px;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.servicePanel{
+  padding: 2rem 0;
+  background-color: $bg_default;
+  .servicesBox{
+    padding-top: 1rem;
+    @media only screen and (min-width: $breakpoint_md) {
+      padding-top: 2rem;
+    }
+  }
+}

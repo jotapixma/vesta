@@ -1,0 +1,17 @@
+.formPanel{
+  padding: 2rem 0;
+  background-color: $secondary;
+  border-radius: 16px 16px 0 0;
+  .formBox{
+    border: 1px solid $white;
+    border-radius: 16px;
+    padding: 3rem 2rem;
+    margin: 1.5rem 0.5rem;
+  }
+  @media only screen and (min-width: $breakpoint_md) {
+    padding: 3rem 0;
+  }
+  .inputField{
+    border-color: $white !important;
+  }
+}

@@ -1,0 +1,112 @@
+.heroContainer{
+  position: relative;
+  .hero{
+    position: relative;
+    .bannerMask{
+      position: relative;
+      width: 1900px;
+      height: 700px;
+      &:before{
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(32, 33, 35, 0.4);
+        // z-index: 100;
+        // opacity: 0;
+        transition: all 0.5s ease-in-out;
+        z-index: 10;
+      }
+    }
+    .heroBody{
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 100%;
+      height: 100%;
+      z-index: 20;
+      &__container{
+        margin: 0 auto;
+        overflow-wrap: break-word;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0 1rem;
+        @media only screen and (min-width: $breakpoint_md) {
+          max-width: 80%;
+        }
+        .heroBox{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          // background-color: #0f0f0fa8;
+          padding: 1.5rem 1rem;
+          gap: 0.5rem;
+          width: 90%;
+          .heroTitle{
+            color: $white;
+            text-transform: uppercase;
+            font-weight: 600;
+            margin: 0;
+            font-size: 22px;
+            // padding-bottom: 3rem;
+          }
+          @media only screen and (min-width: $breakpoint_md) {
+            // width: 450px;
+            .heroTitle{
+              letter-spacing: 1px;
+              font-size: 36px;
+            }
+          }
+        }
+        .textBox{
+          max-width: 570px;
+          padding: 0 0.5rem;
+          p{
+            color: $white;
+            font-weight: 400;
+            font-size: 18px;
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+  .genericArrow{
+    position: absolute;
+    bottom: 110px;
+    z-index: 10;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    top: 50%;
+    transform: translateY(-50%);
+    @media only screen and (max-width: $breakpoint_md) {
+      display: none;
+    }
+    svg{
+      font-size: 2.5rem;
+      fill: $white;
+    }
+    &.leftArrow{
+      left: 24px;
+    }
+    &.rightArrow{
+      right: 24px;
+    }
+    &.disabled{
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+  }
+}
+
+
+
+
