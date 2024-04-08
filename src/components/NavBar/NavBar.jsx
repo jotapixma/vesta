@@ -21,8 +21,8 @@ import styles from './NavBar.module.scss';
 const drawerWidth = 240;
 const navItems = [
   {
-    'title': 'Item 1',
-    'href': '#wedo'
+    'title': 'Proyectos',
+    'href': '/proyects'
   },
   {
     'title': 'Item 2',

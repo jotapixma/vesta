@@ -1,0 +1,245 @@
+
+[
+  {
+    "entrega": "Entrega Inmediata",
+    "descripcion": "La mejor oportunidad ahora",
+    "slug": "entrega-inmediata",
+    "zones": [
+      {
+        "name": "zona oriente",
+        "zone_id": 1,
+        "projects": [
+          {
+            "proyect_id": 1,
+            "proyect_title": "Proyecto Oriente Inmediato",
+            "uf_min": "100",
+            "title": "Proyecto Oriente Inmediato",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla odio nec quam volutpat, sit amet lobortis arcu ullamcorper.",
+            "title_2": "Oriente se reinventa",
+            "description_2": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+            "gallery": [
+              { "image": "url_de_imagen_orient_1.jpg", "alt": "Imagen 1" },
+              { "image": "url_de_imagen_orient_2.jpg", "alt": "Imagen 2" }
+            ],
+            "image": "/zones.png",
+            "prices": { "title": "Precios", "description": "Desde $100,000,000 CLP" },
+            "typologies": { "title": "Tipologías", "description": "Apartamentos de 2 y 3 dormitorios" },
+            "commercial_conditions": { "title": "Condiciones Comerciales", "description": "Descuento del 5% por pago al contado" },
+            "common_areas": { "title": "Espacios Comunes", "description": "Piscina, gimnasio, áreas verdes" },
+            "construction": { "title": "Construcción", "description": "En construcción" },
+            "project": { "title": "Proyecto", "description": "Entrega inmediata, últimas unidades disponibles" }
+          }
+        ]
+      },
+      {
+        "name": "zona sur",
+        "zone_id": 2,
+        "projects": [
+          {
+            "proyect_id": 1,
+            "proyect_title": "Proyecto Sur Inmediato",
+            "uf_min": "150",
+            "title": "Proyecto Sur Inmediato",
+            "description": "Descripción de proyecto en la zona sur de entrega inmediata.",
+            "title_2": "Nuevo título sur",
+            "description_2": "Descripción adicional del proyecto en la zona sur.",
+            "gallery": [
+              { "image": "url_de_imagen_sur_1.jpg", "alt": "Imagen 1" },
+              { "image": "url_de_imagen_sur_2.jpg", "alt": "Imagen 2" }
+            ],
+            "image": "/zones.png",
+            "prices": { "title": "Precios", "description": "Desde $150,000,000 CLP" },
+            "typologies": { "title": "Tipologías", "description": "Casas de 3 y 4 dormitorios" },
+            "commercial_conditions": { "title": "Condiciones Comerciales", "description": "Financiamiento disponible" },
+            "common_areas": { "title": "Espacios Comunes", "description": "Club house, juegos infantiles" },
+            "construction": { "title": "Construcción", "description": "En construcción" },
+            "project": { "title": "Proyecto", "description": "Entrega inmediata, reserva ya tu vivienda" }
+          },
+          {
+            "proyect_id": 2,
+            "proyect_title": "Proyecto Panal",
+            "uf_min": "150",
+            "title": "Proyecto Sur Inmediato",
+            "description": "Descripción de proyecto en la zona sur de entrega inmediata.",
+            "title_2": "Nuevo título sur",
+            "description_2": "Descripción adicional del proyecto en la zona sur.",
+            "gallery": [
+              { "image": "url_de_imagen_sur_1.jpg", "alt": "Imagen 1" },
+              { "image": "url_de_imagen_sur_2.jpg", "alt": "Imagen 2" }
+            ],
+            "image": "/project2.png",
+            "prices": { "title": "Precios", "description": "Desde $150,000,000 CLP" },
+            "typologies": { "title": "Tipologías", "description": "Casas de 3 y 4 dormitorios" },
+            "commercial_conditions": { "title": "Condiciones Comerciales", "description": "Financiamiento disponible" },
+            "common_areas": { "title": "Espacios Comunes", "description": "Club house, juegos infantiles" },
+            "construction": { "title": "Construcción", "description": "En construcción" },
+            "project": { "title": "Proyecto", "description": "Entrega inmediata, reserva ya tu vivienda" }
+          }
+        ]
+      },
+      {
+        "name": "zona centro",
+        "zone_id": 3,
+        "projects": [
+          {
+            "proyect_id": 1,
+            "proyect_title": "Proyecto Centro Inmediato",
+            "uf_min": "120",
+            "title": "Proyecto Centro Inmediato",
+            "description": "Descripción de proyecto en la zona centro de entrega inmediata.",
+            "title_2": "Nuevo título centro",
+            "description_2": "Descripción adicional del proyecto en la zona centro.",
+            "gallery": [
+              { "image": "url_de_imagen_centro_1.jpg", "alt": "Imagen 1" },
+              { "image": "url_de_imagen_centro_2.jpg", "alt": "Imagen 2" }
+            ],
+            "image": "/zones.png",
+            "prices": { "title": "Precios", "description": "Desde $120,000,000 CLP" },
+            "typologies": { "title": "Tipologías", "description": "Departamentos de 1 y 2 dormitorios" },
+            "commercial_conditions": { "title": "Condiciones Comerciales", "description": "Cuotas sin interés por 12 meses" },
+            "common_areas": { "title": "Espacios Comunes", "description": "Salón de eventos, quincho" },
+            "construction": { "title": "Construcción", "description": "En construcción" },
+            "project": { "title": "Proyecto", "description": "Entrega inmediata, excelente ubicación" }
+          }
+        ]
+      },
+      {
+        "name": "zona norte",
+        "zone_id": 4,
+        "projects": [
+          {
+            "proyect_id": 1,
+            "proyect_title": "Proyecto Norte Inmediato",
+            "uf_min": "180",
+            "title": "Proyecto Norte Inmediato",
+            "description": "Descripción de proyecto en la zona norte de entrega inmediata.",
+            "title_2": "Nuevo título norte",
+            "description_2": "Descripción adicional del proyecto en la zona norte.",
+            "gallery": [
+              { "image": "url_de_imagen_norte_1.jpg", "alt": "Imagen 1" },
+              { "image": "url_de_imagen_norte_2.jpg", "alt": "Imagen 2" }
+            ],
+            "image": "/zones.png",
+            "prices": { "title": "Precios", "description": "Desde $180,000,000 CLP" },
+            "typologies": { "title": "Tipologías", "description": "Departamentos de 3 y 4 dormitorios" },
+            "commercial_conditions": { "title": "Condiciones Comerciales", "description": "Descuento especial por pago al contado" },
+            "common_areas": { "title": "Espacios Comunes", "description": "Piscina climatizada, sala de cine" },
+            "construction": { "title": "Construcción", "description": "En construcción" },
+            "project": { "title": "Proyecto", "description": "Entrega inmediata, financiamiento disponible" }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "entrega": "Entrega Futura",
+    "descripcion": "Planifica tu inversión",
+    "slug": "entrega-futura",
+    "zones": [
+      {
+        "name": "zona oriente",
+        "zone_id": 1,
+        "projects": [
+          {
+            "proyect_id": 1,
+            "proyect_title": "Proyecto Oriente Futuro",
+            "uf_min": "90",
+            "title": "Proyecto Oriente Futuro",
+            "description": "Descripción de proyecto en la zona oriente de entrega futura.",
+            "title_2": "Nuevo título oriente",
+            "description_2": "Descripción adicional del proyecto en la zona oriente.",
+            "gallery": [
+              { "image": "url_de_imagen_futuro_orient_1.jpg", "alt": "Imagen 1" },
+              { "image": "url_de_imagen_futuro_orient_2.jpg", "alt": "Imagen 2" }
+            ],
+            "image": "/project2.png",
+            "prices": { "title": "Precios", "description": "Desde $90,000,000 CLP" },
+            "typologies": { "title": "Tipologías", "description": "Departamentos de lujo" },
+            "commercial_conditions": { "title": "Condiciones Comerciales", "description": "Reserva con $10,000,000 CLP" },
+            "common_areas": { "title": "Espacios Comunes", "description": "Spa, terraza panorámica" },
+            "construction": { "title": "Construcción", "description": "Preventa" },
+            "project": { "title": "Proyecto", "description": "Entrega en 2 años, reserva ya" }
+          }
+        ]
+      },
+      {
+        "name": "zona sur",
+        "zone_id": 2,
+        "projects": [
+          {
+            "proyect_id": 1,
+            "proyect_title": "Proyecto Sur Futuro",
+            "uf_min": "120",
+            "title": "Proyecto Sur Futuro",
+            "description": "Descripción de proyecto en la zona sur de entrega futura.",
+            "title_2": "Nuevo título futuro sur",
+            "description_2": "Descripción adicional del proyecto en la zona sur.",
+            "gallery": [
+              { "image": "url_de_imagen_futuro_sur_1.jpg", "alt": "Imagen 1" },
+              { "image": "url_de_imagen_futuro_sur_2.jpg", "alt": "Imagen 2" }
+            ],
+            "image": "/project2.png",
+            "prices": { "title": "Precios", "description": "Desde $120,000,000 CLP" },
+            "typologies": { "title": "Tipologías", "description": "Casas ecológicas" },
+            "commercial_conditions": { "title": "Condiciones Comerciales", "description": "Financiamiento a largo plazo" },
+            "common_areas": { "title": "Espacios Comunes", "description": "Parques, senderos" },
+            "construction": { "title": "Construcción", "description": "En planificación" },
+            "project": { "title": "Proyecto", "description": "Entrega en 3 años, reserva ya" }
+          }
+        ]
+      },
+      {
+        "name": "zona centro",
+        "zone_id": 3,
+        "projects": [
+          {
+            "proyect_id": 1,
+            "proyect_title": "Proyecto Centro Futuro",
+            "uf_min": "80",
+            "title": "Proyecto Centro Futuro",
+            "description": "Descripción de proyecto en la zona centro de entrega futura.",
+            "title_2": "Nuevo título futuro centro",
+            "description_2": "Descripción adicional del proyecto en la zona centro.",
+            "gallery": [
+              { "image": "url_de_imagen_futuro_centro_1.jpg", "alt": "Imagen 1" },
+              { "image": "url_de_imagen_futuro_centro_2.jpg", "alt": "Imagen 2" }
+            ],
+            "image": "/project2.png",
+            "prices": { "title": "Precios", "description": "Desde $80,000,000 CLP" },
+            "typologies": { "title": "Tipologías", "description": "Lofts y estudios" },
+            "commercial_conditions": { "title": "Condiciones Comerciales", "description": "Financiamiento flexible" },
+            "common_areas": { "title": "Espacios Comunes", "description": "Gimnasio, área de coworking" },
+            "construction": { "title": "Construcción", "description": "En preconstrucción" },
+            "project": { "title": "Proyecto", "description": "Entrega en 2 años, reserva ya" }
+          }
+        ]
+      },
+      {
+        "name": "zona norte",
+        "zone_id": 4,
+        "projects": [
+          {
+            "proyect_id": 1,
+            "proyect_title": "Proyecto Norte Futuro",
+            "uf_min": "100",
+            "title": "Proyecto Norte Futuro",
+            "description": "Descripción de proyecto en la zona norte de entrega futura.",
+            "title_2": "Nuevo título futuro norte",
+            "description_2": "Descripción adicional del proyecto en la zona norte.",
+            "gallery": [
+              { "image": "url_de_imagen_futuro_norte_1.jpg", "alt": "Imagen 1" },
+              { "image": "url_de_imagen_futuro_norte_2.jpg", "alt": "Imagen 2" }
+            ],
+            "image": "/project2.png",
+            "prices": { "title": "Precios", "description": "Desde $100,000,000 CLP" },
+            "typologies": { "title": "Tipologías", "description": "Apartamentos familiares" },
+            "commercial_conditions": { "title": "Condiciones Comerciales", "description": "Financiamiento disponible" },
+            "common_areas": { "title": "Espacios Comunes", "description": "Áreas recreativas, piscina" },
+            "construction": { "title": "Construcción", "description": "En planificación" },
+            "project": { "title": "Proyecto", "description": "Entrega en 3 años, reserva ya" }
+          }
+        ]
+      }
+    ]
+  }
+]
