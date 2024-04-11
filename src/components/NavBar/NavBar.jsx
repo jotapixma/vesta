@@ -22,7 +22,7 @@ const drawerWidth = 240;
 const navItems = [
   {
     'title': 'Proyectos',
-    'href': '/proyects'
+    'href': '/proyectos'
   },
   {
     'title': 'Item 2',

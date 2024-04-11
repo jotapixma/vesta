@@ -1,5 +1,5 @@
 import React from 'react';
-import Layout from '../components/Layouts/Layout/Layout';
+import Layout from '@/components/Layouts/Layout/Layout';
 import Proyects from '@/components/Proyects/Proyects';
 import Head from 'next/head';
 

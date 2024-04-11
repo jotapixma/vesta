@@ -17,7 +17,7 @@ const ProyectPage = ({proyect}) => {
               <h2>{zone.name}</h2>
               {zone.projects.map((project) => (
                 <article>
-                  <Link href={{ pathname: `/proyecto/${proyect.slug}`}}>
+                  <Link href={`/proyectos/${proyect.slug}/${project.slug}`}>
                     <h3>{project.title}</h3>
                     <figure>
                       <Image src={project.image} width="1200" height="800" layout="responsive"></Image>
