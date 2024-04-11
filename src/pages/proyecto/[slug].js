@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '@/components/Layouts/Layout/Layout';
 import ProyectPage from '@/components/ProyectPage/ProyectPage';
-import data from '../../utils/proyects.json';
+import data from '../../../utils/proyects.json';
 
 // Componente de la página que muestra los detalles del proyecto
 const proyect_single = ({ proyect }) => {

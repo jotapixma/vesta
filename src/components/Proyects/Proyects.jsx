@@ -17,7 +17,6 @@ const proyects = [
   }
 ];
 
-// console.log(datosZonas);
 
 
 const Proyects = () => {
