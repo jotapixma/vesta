@@ -1,0 +1,11 @@
+.cardBox{
+  padding: 2rem;
+  box-shadow: 0 1px 8px rgb(154 154 154/10%), 0 3px 3px rgb(178 178 178/10%), 0 3px 21px #e8ebfb;
+  .title{
+    font-size: 2.5rem;
+  }
+  &:hover{
+    cursor: pointer;
+  }
+
+}

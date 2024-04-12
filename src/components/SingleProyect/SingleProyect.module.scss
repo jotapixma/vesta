@@ -1,0 +1,23 @@
+.section{
+  padding: 24px 0;
+  background-color: $bg_default_2;
+  .headBox{
+    margin-bottom: 16px;
+  }
+  .boxContainer{
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    .title{
+      font-size: 1.3rem;
+    }
+    .descripcion{
+      font-size: 1.1rem;
+    }
+    .bigDescription{
+      font-size: 1.3rem;
+      font-weight: 800;
+    }
+  }
+}

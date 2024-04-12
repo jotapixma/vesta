@@ -1,13 +1,13 @@
 import React from 'react';
 import Layout from '@/components/Layouts/Layout/Layout';
-import ProyectPage from '@/components/ProyectPage/ProyectPage';
+import ZonesPage from '@/components/ZonesPage/ZonesPage';
 import data from '../../utils/proyects.json';
 
 const ProyectSingle = ({ proyect }) => {
   return (
     <React.Fragment>
       <Layout>
-        <ProyectPage proyect={proyect}/>
+        <ZonesPage delivery_type={proyect}/>
       </Layout>
     </React.Fragment>
   );

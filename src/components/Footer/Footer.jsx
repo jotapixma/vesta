@@ -67,8 +67,9 @@ const Footer = () => {
             <Link href="/">
               <figure className={styles.footerLogo}>
                 <Image 
-                  src="/logo-vesta.png"
-                  width={1480} height={877} 
+                  src="/logo-footer.svg"
+                  width={162} height={25} 
+                  layout="intrinsic"
                   alt="logo"
                 />
               </figure>

@@ -18,12 +18,14 @@
             "title_2": "Oriente se reinventa",
             "description_2": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
             "gallery": [
-              { "image": "url_de_imagen_orient_1.jpg", "alt": "Imagen 1" },
-              { "image": "url_de_imagen_orient_2.jpg", "alt": "Imagen 2" }
+              { "image": "/project2.png", "alt": "Imagen 1" },
+              { "image": "/project2.png", "alt": "Imagen 2" },
+              { "image": "/project2.png", "alt": "Imagen 1" },
+              { "image": "/project2.png", "alt": "Imagen 2" }
             ],
             "image": "/zones.png",
             "prices": { "title": "Precios", "description": "Desde $100,000,000 CLP" },
-            "typologies": { "title": "Tipologías", "description": "Apartamentos de 2 y 3 dormitorios" },
+            "typologies": { "title": "Tipologías", "description": "1D+1BA 2D+2B" },
             "commercial_conditions": { "title": "Condiciones Comerciales", "description": "Descuento del 5% por pago al contado" },
             "common_areas": { "title": "Espacios Comunes", "description": "Piscina, gimnasio, áreas verdes" },
             "construction": { "title": "Construcción", "description": "En construcción" },

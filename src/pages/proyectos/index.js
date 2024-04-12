@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '@/components/Layouts/Layout/Layout';
-import Proyects from '@/components/Proyects/Proyects';
+import DeliveryTypes from '@/components/DeliveryTypes/DeliveryTypes';
 import Head from 'next/head';
 
 export default function blog_page() {
@@ -11,7 +11,7 @@ export default function blog_page() {
         <meta name="description" content=""/>
       </Head>
       <Layout>
-        <Proyects/>
+        <DeliveryTypes/>
       </Layout>
     </React.Fragment>
   )

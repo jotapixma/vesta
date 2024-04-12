@@ -1,7 +1,9 @@
 import React from 'react';
 import { useRouter } from 'next/router';
 import { Container } from '@mui/material';
+import SingleProyect from '@/components/SingleProyect/SingleProyect';
 import data from '../../../utils/proyects.json';
+import Layout from '@/components/Layouts/Layout/Layout';
 
 const ProyectoDetalle = ({ proyecto }) => {
   const router = useRouter();
@@ -28,11 +30,11 @@ const ProyectoDetalle = ({ proyecto }) => {
 
   // Aquí puedes utilizar el proyectoSeleccionado para mostrar los detalles del proyecto
   return (
-    <Container>
-      <h1>{proyectoSeleccionado.title}</h1>
-      <p>{proyectoSeleccionado.description}</p>
-      {/* Puedes mostrar más detalles del proyecto aquí */}
-    </Container>
+    <Layout>
+      <SingleProyect
+        proyect={proyectoSeleccionado}
+      />
+    </Layout>
   );
 }
 

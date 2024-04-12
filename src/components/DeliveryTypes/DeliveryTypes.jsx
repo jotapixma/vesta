@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { Container } from '@mui/material';
 import Grid from '@mui/material/Grid';
-import ProyectCard from '../Cards/ProyectCard/ProyectCard';
-import styles from './Proyects.module.scss';
+import DeliveryCard from '../Cards/DeliveryCard/DeliveryCard';
+import styles from './DeliveryTypes.module.scss';
 
-const proyects = [
+const data = [
   {
     entrega: "Entrega Inmediata",
     descripcion: "La mejor oportunidad ahora",
@@ -17,19 +17,17 @@ const proyects = [
   }
 ];
 
-
-
-const Proyects = () => {
+const DeliveryTypes = () => {
   return (  
     <section className={styles.section}>
       <Container>
         <h2 className={styles.title}>Proyectos</h2>
         <Grid container spacing={2}>
-          {proyects.map((proyect,index) => (
+          {data.map((delivery,index) => (
             <Grid item xs={12} md={6}>
-              <ProyectCard 
+              <DeliveryCard 
                 key={index}
-                proyect={proyect}
+                delivery={delivery}
               />
             </Grid>
           ))}
@@ -39,4 +37,4 @@ const Proyects = () => {
   );
 }
  
-export default Proyects;
+export default DeliveryTypes;

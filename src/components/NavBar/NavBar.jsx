@@ -96,16 +96,16 @@ function DrawerAppBar(props) {
             <Link href="/">
               <figure>
                 <Image 
-                  src="/logo-vesta.png"
-                  width={1480} height={877} 
+                  src="/logo-footer.svg"
+                  width={162} height={25} 
                   alt="logo"
                 />
               </figure>
             </Link>
           </Box>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
-            {navItems.map((item) => (
-              <Button key={item} sx={{ color: '#fff' }}>
+            {navItems.map((item,index) => (
+              <Button key={index} sx={{ color: '#fff' }}>
                 <a className={styles.link} href={`${item.href}`} style={{ textDecoration: 'none', color: 'inherit' }}>
                   {item.title}
                 </a>
