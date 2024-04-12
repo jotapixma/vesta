@@ -27,7 +27,7 @@ const DeliveryTypes = () => {
         </div>
         <Grid container spacing={2}>
           {data.map((delivery,index) => (
-            <Grid item xs={12} md={6}>
+            <Grid item xs={12} md={6} key={index}>
               <DeliveryCard 
                 key={index}
                 delivery={delivery}

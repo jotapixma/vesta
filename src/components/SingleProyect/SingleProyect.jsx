@@ -33,8 +33,8 @@ const SingleProyect = ({proyect}) => {
         <Grid container spacing={3} style={{ marginTop: 24}}>
           <Grid item xs={12} md={6}>
             <Grid container spacing={1}>
-              {proyect.gallery.map((item) => (
-                <Grid item xs={6} md={6}>
+              {proyect.gallery.map((item, index) => (
+                <Grid item xs={6} md={6} key={index}>
                   <figure>
                     <Image 
                       src={item.image} 
