@@ -156,8 +156,10 @@
             "title_2": "Nuevo título oriente",
             "description_2": "Descripción adicional del proyecto en la zona oriente.",
             "gallery": [
-              { "image": "url_de_imagen_futuro_orient_1.jpg", "alt": "Imagen 1" },
-              { "image": "url_de_imagen_futuro_orient_2.jpg", "alt": "Imagen 2" }
+              { "image": "/zones.png", "alt": "Imagen 1" },
+              { "image": "/zones.png", "alt": "Imagen 2" },
+              { "image": "/zones.png", "alt": "Imagen 1" },
+              { "image": "/zones.png", "alt": "Imagen 1" }
             ],
             "image": "/project2.png",
             "prices": { "title": "Precios", "description": "Desde $90,000,000 CLP" },
@@ -183,8 +185,10 @@
             "title_2": "Nuevo título futuro sur",
             "description_2": "Descripción adicional del proyecto en la zona sur.",
             "gallery": [
-              { "image": "url_de_imagen_futuro_sur_1.jpg", "alt": "Imagen 1" },
-              { "image": "url_de_imagen_futuro_sur_2.jpg", "alt": "Imagen 2" }
+              { "image": "/zones.png", "alt": "Imagen 1" },
+              { "image": "/zones.png", "alt": "Imagen 2" },
+              { "image": "/zones.png", "alt": "Imagen 1" },
+              { "image": "/zones.png", "alt": "Imagen 1" }
             ],
             "image": "/project2.png",
             "prices": { "title": "Precios", "description": "Desde $120,000,000 CLP" },
@@ -210,8 +214,10 @@
             "title_2": "Nuevo título futuro centro",
             "description_2": "Descripción adicional del proyecto en la zona centro.",
             "gallery": [
-              { "image": "url_de_imagen_futuro_centro_1.jpg", "alt": "Imagen 1" },
-              { "image": "url_de_imagen_futuro_centro_2.jpg", "alt": "Imagen 2" }
+              { "image": "/zones.png", "alt": "Imagen 1" },
+              { "image": "/zones.png", "alt": "Imagen 2" },
+              { "image": "/zones.png", "alt": "Imagen 1" },
+              { "image": "/zones.png", "alt": "Imagen 1" }
             ],
             "image": "/project2.png",
             "prices": { "title": "Precios", "description": "Desde $80,000,000 CLP" },
@@ -237,8 +243,10 @@
             "title_2": "Nuevo título futuro norte",
             "description_2": "Descripción adicional del proyecto en la zona norte.",
             "gallery": [
-              { "image": "url_de_imagen_futuro_norte_1.jpg", "alt": "Imagen 1" },
-              { "image": "url_de_imagen_futuro_norte_2.jpg", "alt": "Imagen 2" }
+              { "image": "/zones.png", "alt": "Imagen 1" },
+              { "image": "/zones.png", "alt": "Imagen 2" },
+              { "image": "/zones.png", "alt": "Imagen 1" },
+              { "image": "/zones.png", "alt": "Imagen 1" }
             ],
             "image": "/project2.png",
             "prices": { "title": "Precios", "description": "Desde $100,000,000 CLP" },

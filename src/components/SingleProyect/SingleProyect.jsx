@@ -30,7 +30,7 @@ const SingleProyect = ({proyect}) => {
           </Grid>
         </Grid>
 
-        <Grid container spacing={2}>
+        <Grid container spacing={3} style={{ marginTop: 24}}>
           <Grid item xs={12} md={6}>
             <Grid container spacing={1}>
               {proyect.gallery.map((item) => (

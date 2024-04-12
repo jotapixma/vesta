@@ -10,7 +10,9 @@ const ZonesPage = ({delivery_type}) => {
   return (
     <section className={styles.section}>
       <Container>
-        <h1 className={styles.mainTitle}>{delivery_type.entrega}</h1>
+        <div className={styles.titleContainer}>
+          <h1 className={styles.mainTitle}>{delivery_type.entrega}</h1>
+        </div>
         {delivery_type.zones.map((zone) => (
           <Box
             key={zone.zone_id}
@@ -25,7 +27,6 @@ const ZonesPage = ({delivery_type}) => {
               {zone.projects.map((project) => (
                 <Grid item xs={12} md={4} key={project.proyect_id}>
                   <ProyectCard
-                    
                     delivery_type={delivery_type} 
                     project={project}
                   />
