@@ -11,7 +11,7 @@ import 'swiper/swiper-bundle.css';
 
 let theme = createTheme({
   colors: {
-    primary: "#5cd7cf",
+    primary: "#b9ca3e",
     secondary: "#353535",
     white: "#FFFFFF",
     disabled: "#e8e8ef",

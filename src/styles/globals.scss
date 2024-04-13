@@ -85,31 +85,30 @@ h2,h3{
 }
 
 .divisor-line{
-  border-bottom: 1px solid;
-  max-width: 95%;
-  margin: 3rem auto 0;
-  &--green{
-    border-color: $primary;
-  }
+  // border-bottom: 1px solid $gray_divisor;
+  width: 100%;
+  height: 1px;
+  background-color: $gray_divisor;
+  margin: 8px 0;
 }
 
-.contact-form{
-  fieldset{
-    border-color: $white !important;
-  }
+// .contact-form{
+//   fieldset{
+//     border-color: $white !important;
+//   }
   
-  label{
-    color: $white !important;
-  }
+//   label{
+//     color: $white !important;
+//   }
   
-  input{
-    color: $white !important;
-  }
+//   input{
+//     color: $white !important;
+//   }
   
-  textarea{
-    color: $white !important;
-  }
-}
+//   textarea{
+//     color: $white !important;
+//   }
+// }
 
 .primary-button{
   display: -webkit-inline-box;
@@ -171,4 +170,9 @@ h2,h3{
 
 .MuiContainer-maxWidthLg {
   max-width: 1700px !important;
+}
+
+.bootstrap-container {
+  max-width: 1280px;
+  margin: 0 auto;
 }

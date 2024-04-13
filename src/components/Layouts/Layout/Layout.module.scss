@@ -7,9 +7,5 @@
   min-height: 100%;
   box-sizing: border-box;
   overflow-x: hidden;
-  position: relative;
-  top: 90px;
-  @media only screen and (min-width: $breakpoint_md) {
-    top: 64px;
-  }
+  // position: relative;
 }

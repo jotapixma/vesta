@@ -24,7 +24,7 @@
               { "image": "/project2.png", "alt": "Imagen 2" }
             ],
             "image": "/zones.png",
-            "prices": { "title": "Precios", "description": "Desde $100,000,000 CLP" },
+            "prices": { "title": "Precios", "description": "1.400" },
             "typologies": { "title": "Tipologías", "description": "1D+1BA 2D+2B" },
             "commercial_conditions": { "title": "Condiciones Comerciales", "description": "Descuento del 5% por pago al contado" },
             "common_areas": { "title": "Espacios Comunes", "description": "Piscina, gimnasio, áreas verdes" },
@@ -47,11 +47,13 @@
             "title_2": "Nuevo título sur",
             "description_2": "Descripción adicional del proyecto en la zona sur.",
             "gallery": [
-              { "image": "url_de_imagen_sur_1.jpg", "alt": "Imagen 1" },
-              { "image": "url_de_imagen_sur_2.jpg", "alt": "Imagen 2" }
+              { "image": "/project2.png", "alt": "Imagen 1" },
+              { "image": "/project2.png", "alt": "Imagen 2" },
+              { "image": "/project2.png", "alt": "Imagen 1" },
+              { "image": "/project2.png", "alt": "Imagen 2" }
             ],
             "image": "/zones.png",
-            "prices": { "title": "Precios", "description": "Desde $150,000,000 CLP" },
+            "prices": { "title": "Precios", "description": "2.100" },
             "typologies": { "title": "Tipologías", "description": "Casas de 3 y 4 dormitorios" },
             "commercial_conditions": { "title": "Condiciones Comerciales", "description": "Financiamiento disponible" },
             "common_areas": { "title": "Espacios Comunes", "description": "Club house, juegos infantiles" },
@@ -68,11 +70,13 @@
             "title_2": "Nuevo título sur",
             "description_2": "Descripción adicional del proyecto en la zona sur.",
             "gallery": [
-              { "image": "url_de_imagen_sur_1.jpg", "alt": "Imagen 1" },
-              { "image": "url_de_imagen_sur_2.jpg", "alt": "Imagen 2" }
+              { "image": "/project2.png", "alt": "Imagen 1" },
+              { "image": "/project2.png", "alt": "Imagen 2" },
+              { "image": "/project2.png", "alt": "Imagen 1" },
+              { "image": "/project2.png", "alt": "Imagen 2" }
             ],
             "image": "/project2.png",
-            "prices": { "title": "Precios", "description": "Desde $150,000,000 CLP" },
+            "prices": { "title": "Precios", "description": "2.100" },
             "typologies": { "title": "Tipologías", "description": "Casas de 3 y 4 dormitorios" },
             "commercial_conditions": { "title": "Condiciones Comerciales", "description": "Financiamiento disponible" },
             "common_areas": { "title": "Espacios Comunes", "description": "Club house, juegos infantiles" },
@@ -95,11 +99,13 @@
             "title_2": "Nuevo título centro",
             "description_2": "Descripción adicional del proyecto en la zona centro.",
             "gallery": [
-              { "image": "url_de_imagen_centro_1.jpg", "alt": "Imagen 1" },
-              { "image": "url_de_imagen_centro_2.jpg", "alt": "Imagen 2" }
+              { "image": "/project2.png", "alt": "Imagen 1" },
+              { "image": "/project2.png", "alt": "Imagen 2" },
+              { "image": "/project2.png", "alt": "Imagen 1" },
+              { "image": "/project2.png", "alt": "Imagen 2" }
             ],
             "image": "/zones.png",
-            "prices": { "title": "Precios", "description": "Desde $120,000,000 CLP" },
+            "prices": { "title": "Precios", "description": "1.900" },
             "typologies": { "title": "Tipologías", "description": "Departamentos de 1 y 2 dormitorios" },
             "commercial_conditions": { "title": "Condiciones Comerciales", "description": "Cuotas sin interés por 12 meses" },
             "common_areas": { "title": "Espacios Comunes", "description": "Salón de eventos, quincho" },
@@ -122,8 +128,10 @@
             "title_2": "Nuevo título norte",
             "description_2": "Descripción adicional del proyecto en la zona norte.",
             "gallery": [
-              { "image": "url_de_imagen_norte_1.jpg", "alt": "Imagen 1" },
-              { "image": "url_de_imagen_norte_2.jpg", "alt": "Imagen 2" }
+              { "image": "/project2.png", "alt": "Imagen 1" },
+              { "image": "/project2.png", "alt": "Imagen 2" },
+              { "image": "/project2.png", "alt": "Imagen 1" },
+              { "image": "/project2.png", "alt": "Imagen 2" }
             ],
             "image": "/zones.png",
             "prices": { "title": "Precios", "description": "Desde $180,000,000 CLP" },
@@ -162,7 +170,7 @@
               { "image": "/zones.png", "alt": "Imagen 1" }
             ],
             "image": "/project2.png",
-            "prices": { "title": "Precios", "description": "Desde $90,000,000 CLP" },
+            "prices": { "title": "Precios", "description": "1.700" },
             "typologies": { "title": "Tipologías", "description": "Departamentos de lujo" },
             "commercial_conditions": { "title": "Condiciones Comerciales", "description": "Reserva con $10,000,000 CLP" },
             "common_areas": { "title": "Espacios Comunes", "description": "Spa, terraza panorámica" },
@@ -191,7 +199,7 @@
               { "image": "/zones.png", "alt": "Imagen 1" }
             ],
             "image": "/project2.png",
-            "prices": { "title": "Precios", "description": "Desde $120,000,000 CLP" },
+            "prices": { "title": "Precios", "description": "1.900" },
             "typologies": { "title": "Tipologías", "description": "Casas ecológicas" },
             "commercial_conditions": { "title": "Condiciones Comerciales", "description": "Financiamiento a largo plazo" },
             "common_areas": { "title": "Espacios Comunes", "description": "Parques, senderos" },
@@ -249,7 +257,7 @@
               { "image": "/zones.png", "alt": "Imagen 1" }
             ],
             "image": "/project2.png",
-            "prices": { "title": "Precios", "description": "Desde $100,000,000 CLP" },
+            "prices": { "title": "Precios", "description": "1.400" },
             "typologies": { "title": "Tipologías", "description": "Apartamentos familiares" },
             "commercial_conditions": { "title": "Condiciones Comerciales", "description": "Financiamiento disponible" },
             "common_areas": { "title": "Espacios Comunes", "description": "Áreas recreativas, piscina" },

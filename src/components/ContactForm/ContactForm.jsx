@@ -8,9 +8,26 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import { Button } from "../../components/Buttons/Button";
 import * as yup from "yup";
 import axios from "axios";
+import { Controller } from "react-hook-form";
+import { validateRUT } from "validar-rut";
 import styles from "./ContactForm.module.scss";
 
-const ContactForm = ({ title }) => {
+const ContactForm = () => {
+  const [phone, setPhone] = useState("");
+  
+  yup.addMethod(yup.string, "rut", function (message) {
+    return this.test("rut", message, function (value) {
+      if (!value) {
+        return true;
+      }
+      // Valida el RUT utilizando la librería de validación de RUT
+      const isValidRUT = validateRUT(value);
+      // console.log("es valid Rut:", isValidRUT);
+      return isValidRUT || this.createError({ message });
+    });
+  });
+
+
   const schema = yup.object().shape({
     email: yup
       .string()
@@ -18,8 +35,10 @@ const ContactForm = ({ title }) => {
       .required("El email es requerido"),
     name: yup.string().required("El nombre es requerido"),
     fullName: yup.string().required("El Apellido es requerido"),
-    text: yup.string().required("El comentario es requerido"),
-    // phone: yup.string().optional(),
+    identificationDocument: yup.string().rut("El Rut no es válido").required(),
+    phone: yup.string().max(10, "Ingrese un formato valido.").required("El numero de telefono es requerido"),
+    // text: yup.string().required("El comentario es requerido"),
+    phone: yup.string().max(10, "Ingrese un formato valido.").required("El numero de telefono es requerido"),
   });
 
   const {
@@ -58,7 +77,7 @@ const ContactForm = ({ title }) => {
   const formatData = (data) => {
     const formData = {
       email: data.email,
-      message: data.text,
+      // message: data.text,
       name: `${
         data.name.charAt(0).toUpperCase() + data.name.slice(1).toLowerCase()
       } ${
@@ -91,9 +110,7 @@ const ContactForm = ({ title }) => {
   return (
     <section className={`contact-form ${styles.formPanel}`} id="contact"> 
       <Container>
-        <div className="title-container title-container__white">
-          <h2 className="title">{title}</h2>
-        </div>
+        <h2 className={styles.title}>Conoce más sobre el proyecto</h2>
         <Box
           component="form"
           noValidate
@@ -122,18 +139,61 @@ const ContactForm = ({ title }) => {
             <Grid item xs={12} md={6}>
               <TextField
                 fullWidth
+                type="text"
                 size="small"
-                required
+                className={styles.textFieldCustom}
                 id="outlined-required"
                 InputLabelProps={{
                   shrink: true,
-                }}
+                }}  
                 label="Apellido"
-                // placeholder="nombre@mail.com"
+                placeholder="Apellido"
                 {...register("fullName")}
-                // error={Boolean(errors.email)}
-                // helperText={errors.email ? errors.email.message : " "}
-                variant="outlined"
+                error={Boolean(errors.fullName)}
+                helperText={errors.fullName ? errors.fullName.message : " "}
+              />
+            </Grid>
+            <Grid item xs={12} md={6}>
+              <TextField
+                fullWidth
+                type="number"
+                size="small"
+                className={styles.textFieldCustom}
+                id="outlined-helperText"
+                InputLabelProps={{
+                  shrink: true,
+                }}
+                label="Número de teléfono"
+                placeholder="Ejm: 995141844"
+                {...register("phone")}
+                error={Boolean(errors.phone)}
+                defaultValue={phone}
+                helperText={errors.phone ? errors.phone.message : " "}
+              />
+            </Grid>
+            <Grid item xs={12} md={6}>
+              <Controller
+                name="identificationDocument"
+                control={control}
+                defaultValue={""}
+                render={({ field, fieldState }) => (
+                  <TextField
+                    {...field}
+                    fullWidth
+                    size="small"
+                    {...register("identificationDocument")}
+                    className={styles.textFieldCustom}
+                    id="outlined-required"
+                    label="Rut"
+                    error={Boolean(errors.identificationDocument)}
+                    helperText={
+                      errors.identificationDocument ? errors.identificationDocument.message : " "
+                    }
+                    onChange={(e) => {
+                      field.onChange(e.target.value);
+                    }}
+                  />
+                )}
               />
             </Grid>
             <Grid item xs={12} md={12}>
@@ -154,7 +214,7 @@ const ContactForm = ({ title }) => {
                 variant="outlined"
               />
             </Grid>
-            <Grid item xs={12} md={12}>
+            {/* <Grid item xs={12} md={12}>
               <TextField
                 // label="Multiline"
                 fullWidth
@@ -173,9 +233,11 @@ const ContactForm = ({ title }) => {
                 helperText={errors.text ? errors.text.message : " "}
                 className={styles.customBox}
               />
-            </Grid>
+            </Grid> */}
           </Grid>
-          <Button type="submit">Enviar comentario</Button>
+          <Box style={{ marginTop: '16px' }}>
+            <Button w100="true" type="submit">Enviar</Button>
+          </Box>
         </Box>
       </Container>
     </section>

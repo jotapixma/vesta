@@ -2,22 +2,23 @@
   padding: 24px 0;
   background-color: $bg_default_2;
   .headBox{
-    margin-bottom: 16px;
-  }
-  .boxContainer{
-    margin-top: 16px;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
+    padding: 16px 0 32px 0;
+    text-align: center;
     .title{
-      font-size: 1.3rem;
+      margin-bottom: 8px;
+      font-size: 1.6rem;
+      text-transform: uppercase;
+      border-bottom: 2px solid $primary;
+      display: inline-block;
     }
-    .descripcion{
-      font-size: 1.1rem;
-    }
-    .bigDescription{
-      font-size: 1.3rem;
-      font-weight: 800;
+  }
+  .formPanel{
+    background-color: #f5f4f4;
+    padding: 32px 0;
+    .imgMask{
+      border-radius: 6px;
+      overflow: hidden;
+      display: flex;
     }
   }
 }

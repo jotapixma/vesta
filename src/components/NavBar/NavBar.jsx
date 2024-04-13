@@ -25,17 +25,17 @@ const navItems = [
     'href': '/proyectos'
   },
   {
-    'title': 'Item 2',
-    'href': '#contact'
+    'title': 'Quienes Somos',
+    'href': '/quienes-somos'
   },
   {
-    'title': 'Item 3',
-    'href': '#contact'
+    'title': 'Contáctanos',
+    'href': '/contactanos'
   },
-  {
-    'title': 'Item 4',
-    'href': '#contact'
-  }
+  // {
+  //   'title': 'Item 4',
+  //   'href': '#contact'
+  // }
 ];
 
 function DrawerAppBar(props) {
