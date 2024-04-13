@@ -2,7 +2,8 @@ import nodemailer from 'nodemailer';
 import logo from '../../../public/img_mail.png'
 
 export default async (req, res) => {
-  // console.log('rer:', req.body);
+  console.log('rer:', req.body);
+  
   try {
     const transporter = nodemailer.createTransport({
       host: 'mail.lvconstructora.cl',
@@ -19,7 +20,7 @@ export default async (req, res) => {
       from: "contacto@lvconstructora.cl",
       to: req.body.to,
       subject: req.body.subject,
-      text: req.body.message,
+      // text: req.body.message,
       html: `
       <table style="width: 100%; border-collapse: collapse; display: flex; justify-content: center; align-items: center;text-align: center;">
       <tr>
@@ -37,8 +38,6 @@ export default async (req, res) => {
             <h3 style="margin-top: 2rem;">Has recibido un mensaje de contacto</h3>
             <p style="text-align: justify;"><strong>Nombre:</strong> ${req.body.name}</p>
             <p style="text-align: justify;"><strong>Email:</strong> ${req.body.email}</p>
-            <p style="text-align: justify;"><strong>Mensaje:</strong></p>
-            <p style="text-align: justify;">${req.body.message}</p>
           </div>
         </td>
       </tr>

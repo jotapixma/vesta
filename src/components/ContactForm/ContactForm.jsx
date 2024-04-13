@@ -38,7 +38,6 @@ const ContactForm = () => {
     identificationDocument: yup.string().rut("El Rut no es válido").required(),
     phone: yup.string().max(10, "Ingrese un formato valido.").required("El numero de telefono es requerido"),
     // text: yup.string().required("El comentario es requerido"),
-    phone: yup.string().max(10, "Ingrese un formato valido.").required("El numero de telefono es requerido"),
   });
 
   const {
@@ -77,6 +76,8 @@ const ContactForm = () => {
   const formatData = (data) => {
     const formData = {
       email: data.email,
+      rut: data.identificationDocument,
+      phone: data.phone,
       // message: data.text,
       name: `${
         data.name.charAt(0).toUpperCase() + data.name.slice(1).toLowerCase()
@@ -97,7 +98,7 @@ const ContactForm = () => {
       const newData = formatData(data);
       console.log("newData:", newData);
       sendFormToEmail(newData);
-      reset()
+      // reset()
     } catch (e) {
       console.log("error");
     }
