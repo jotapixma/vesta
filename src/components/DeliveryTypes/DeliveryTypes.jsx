@@ -3,6 +3,7 @@ import { Container } from '@mui/material';
 import Grid from '@mui/material/Grid';
 import DeliveryCard from '../Cards/DeliveryCard/DeliveryCard';
 import styles from './DeliveryTypes.module.scss';
+
 const data = [
   {
     entrega: "Entrega Inmediata",

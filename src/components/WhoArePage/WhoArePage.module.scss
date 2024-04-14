@@ -1,0 +1,14 @@
+.section{
+  padding: 48px 0;
+  background-color: $white;
+  p{
+    margin-bottom: 16px;
+  }
+  @media only screen and (min-width: $breakpoint_md) {
+    .mask{
+      max-width: 300px;
+      float: left;
+      margin-right: 24px;
+    }
+  }
+}

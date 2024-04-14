@@ -12,6 +12,11 @@
   }
   .zoneBox{
     margin-bottom: 24px;
+    .headRow{
+      display: flex;
+      align-items: center;
+      margin-bottom: 8px;
+    }
     .titleZone{
       color: $primary;
       text-transform: uppercase;

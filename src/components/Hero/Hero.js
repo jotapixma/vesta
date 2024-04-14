@@ -21,7 +21,7 @@ SwiperCore.use([Autoplay]);
 let items = [
   {
     "id": '1',
-    "image": '/hero-3.jpeg',
+    "image": '/type-delivery.jpeg',
     "image_mobile": '/hero-3.jpeg',
     "title": 'Slider 1',
     "button_text": 'Contáctanos',
@@ -29,7 +29,7 @@ let items = [
   },
   {
     "id": '2',
-    "image": '/hero-1.jpg',
+    "image": '/type-delivery.jpeg',
     "image_mobile": '/hero-1.jpg',
     "title": 'Slider 2',
     "button_text": 'Contáctanos',
@@ -81,20 +81,21 @@ export default function Hero({sliderItems}) {
                     <div className={styles.heroBody__container}>
                       <div className={styles.heroBox}>
                         <h1 className={styles.heroTitle}>{item.title}</h1>
-                        <a className="primary-button" href={`${item.url_link}`}>Contáctanos</a>
+                        <Button uppercase href={`${item.url_link}`}>Contáctanos</Button>
+                        {/* <a className="primary-button" href={`${item.url_link}`}>Contáctanos</a> */}
                       </div>
                     </div>
                   </div>
                   {matchesMd ? (
                     <figure className={styles.bannerMask}>
-                      {/* <Image 
+                      <Image 
                         src={item.image} 
                         width={1900} 
                         height={900} 
                         alt={item.title} 
                         priority={true}
                         layout="responsive"
-                      /> */}
+                      />
                     </figure>
                   ) : (
                     <figure className={styles.bannerMask}>

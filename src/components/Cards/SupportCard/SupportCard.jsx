@@ -8,14 +8,14 @@ const SupportCard = ({item}) => {
   const matchesMd = useMediaQuery('(min-width:900px)');
 
   return (  
-    <Link href="/">
+    <a href={item.url != '' ? item.url : undefined }>
       <article className={styles.cardBox}>
         <figure className={styles.cardBox__mask}>
-          {/* <Image src={item.image} width={4032} height={3024} layout="responsive" /> */}
+          <Image src={item.image} width={1200} height={800} layout="responsive" />
         </figure>
         <h2 className={styles.cardBox__title}>{item.title}</h2>
       </article>
-    </Link>
+    </a>
   );
 }
  

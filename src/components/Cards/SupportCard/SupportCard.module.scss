@@ -3,9 +3,6 @@
   overflow: hidden;
   position: relative;
   &__mask{
-    position: relative;
-    width: auto;
-    height: 200px;
     &:before{
       position: absolute;
       content: "";
@@ -21,7 +18,6 @@
       transition: all .25s ease-in-out;
       &:hover{
         transform: scale(1.1);
-        cursor: pointer;
       }
     }
   }

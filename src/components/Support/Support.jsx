@@ -8,18 +8,21 @@ import styles from './Support.module.scss';
 let items = [
   {
     "id": '1',
-    "image": '/habilitacion-espacios-3.jpg',
+    "image": '/project2.png',
     "title": 'Proyectos',
+    "url": '/proyectos',
   },
-  // {
-  //   "id": '2',
-  //   "image": '/obras-civiles.jpeg',
-  //   "title": 'Asesoria',
-  // },
+  {
+    "id": '2',
+    "image": '/asesorias-2.jpeg',
+    "title": 'Asesoria',
+    "url": '',
+  },
   {
     "id": '3',
-    "image": '/asesorias-2.jpeg',
+    "image": '/proposito.webp',
     "title": 'Quienes somos',
+    "url": '/quienes-somos',
   },
   // {
   //   "id": '4',
@@ -40,7 +43,7 @@ const Support = ({title}) => {
             <Grid container spacing={2}>
               {items &&
                 items.map((item) => (
-                  <Grid key={item.id} item xs={12} md={6}>
+                  <Grid key={item.id} item xs={12} md={4}>
                     <SupportCard item={item}/>
                   </Grid>
                 ))

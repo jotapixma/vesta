@@ -3,6 +3,7 @@ import Grid from '@mui/material/Grid';
 import { Container } from '@mui/material';
 import ProyectCard from '../Cards/ProyectCard/ProyectCard';
 import Box from '@mui/material/Box';
+import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
 import styles from './ZonesPage.module.scss';
 
 const ZonesPage = ({delivery_type}) => {
@@ -18,7 +19,10 @@ const ZonesPage = ({delivery_type}) => {
             key={zone.zone_id}
             className={styles.zoneBox}
           >
-            <h2 className={styles.titleZone}>{zone.name}</h2>
+            <div className={styles.headRow}>
+              <LocationOnOutlinedIcon/>
+              <h2 className={styles.titleZone}>{zone.name}</h2>
+            </div>
             <Grid 
               container 
               spacing={1} 

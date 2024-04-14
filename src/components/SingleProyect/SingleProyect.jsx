@@ -1,10 +1,10 @@
 import { Container } from '@mui/material';
-import Image from 'next/image';
 import Box from "@mui/material/Box";
 import Grid from '@mui/material/Grid';
 import styles from './SingleProyect.module.scss';
 import ContactForm from '../ContactForm/ContactForm';
 import ContentPanel from './ContentPanel/ContentPanel';
+import Image from "next/legacy/image";
 
 const SingleProyect = ({proyect}) => {
   return (  

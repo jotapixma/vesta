@@ -1,19 +1,17 @@
 import React from 'react';
+import WhoArePage from '@/components/WhoArePage/WhoArePage'
 import Layout from '@/components/Layouts/Layout/Layout';
-import DeliveryTypes from '@/components/DeliveryTypes/DeliveryTypes';
 import Head from 'next/head';
 
-export default function blog_page() {
+export default function contactanos() {
   return (
     <React.Fragment>
        <Head>
-        <title>Nuestros Proyectos</title>
+        <title>Quiénes Somos</title>
         <meta name="description" content=""/>
       </Head>
       <Layout>
-        <main>
-        <DeliveryTypes/>
-        </main>
+        <WhoArePage/>
       </Layout>
     </React.Fragment>
   )

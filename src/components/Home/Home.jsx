@@ -4,19 +4,19 @@ import Purpose from '../../components/Purpose/Purpose'
 import Partners from '../../components/Partners/Partners'
 import Support from '../../components/Support/Support'
 import Proyects from '../DeliveryTypes/DeliveryTypes'
-import ContactForm from '../../components/ContactForm/ContactForm';
+import ContactModule from '../../components/ContactModule/ContactModule';
 // import styles from '@/styles/Home.module.css'
 
 const Home = () => {
   return ( 
     <>
       <Hero/>
-      {/* <Proyects/> */}
       <Support title="Nuestros Servicios"/>
+      <ContactModule/>
+      {/* <Proyects/> */}
       {/* <Services title="Servicios"/>
       <Purpose title="Nuestro propósito"/>
-      <Partners title="Han confiado en nosotros"/>
-      <ContactForm title="Contactános"/> */}
+      <Partners title="Han confiado en nosotros"/> */}
     </>
    );
 }
