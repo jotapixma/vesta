@@ -22,7 +22,9 @@
       transform: translateX(-50%) translateY(-50%);
     }
   }
+
 }
+
 .logoContainer{
   max-width: 70%;
   margin: 0 auto; 
@@ -30,4 +32,10 @@
 
 .link{
   color: $primary !important;
+}
+
+.sideBar{
+  .MuiPaper-root{
+    background-color: red;
+  }
 }

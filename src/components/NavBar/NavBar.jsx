@@ -49,11 +49,10 @@ function DrawerAppBar(props) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
       <Link href="/">
-        <figure className={styles.logoContainer}>
+        <figure style={{ padding: '16px 0'}}>
           <Image 
-            src="/logo-vesta.png"
-            width={1018} height={877} 
-            layout="responsive"  
+            src="/logo-footer.svg"
+            width={162} height={25} 
             alt="logo"
           />
         </figure>
@@ -125,8 +124,13 @@ function DrawerAppBar(props) {
           }}
           sx={{
             display: { xs: 'block', sm: 'none' },
-            '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth },
+            '& .MuiDrawer-paper': { 
+              boxSizing: 'border-box',
+              width: drawerWidth,
+              backgroundColor: '#353535'
+            },
           }}
+          classes={styles.sideBar}
         >
           {drawer}
         </Drawer>
